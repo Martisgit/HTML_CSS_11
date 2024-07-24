@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: 1px solid rgb(184, 190, 184);
+  cursor: pointer;
+  height: 40px;
+  padding: 0 1rem;
+}
+
+button:hover {
+  transition: 0.3s;
+  scale: 1.1;
+  margin-top: 2rem;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: blanchedalmond;
+  padding: 2rem;
+}
+
+button:active {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+button:focus {
+  outline: none;
+  border: 1px solid rgb(2, 247, 2);
+}
+
+a:visited button {
+  color: rgb(160, 30, 30);
+}
+
+p::first-letter {
+  color: blue;
+}
+
+p {
+  font-size: 2rem;
+  width: 100%;
+  text-align: justify;
+}
